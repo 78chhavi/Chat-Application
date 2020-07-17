@@ -1,14 +1,14 @@
-const io=require("socket.io")(8000);
 const fs=require("fs");
-// var express=require('express');
-// var app = express();
-// const bodyParser=require("body-parser");
+var express=require('express');
+var app = express();
+const bodyParser=require("body-parser");
 // const ejs = require("ejs");
 //
 // app.set('view engine', 'ejs');
-// var http = require('http').Server(app);
-// app.use(bodyParser.urlencoded({extended: true}));
-// app.use(express.static("public"));
+var http = require('http').Server(app);
+const io=require("socket.io")(http);
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static("public"));
 
 
 var users={}
@@ -35,7 +35,10 @@ io.on("connection",socket=>{
     delete name;
   })
 });
-
+app.get('/', function(req, res,next) {
+   res.sendFile(__dirname + '/index.html');
+});
+http.listen(process.env.PORT || 8000);
 // http.listen(2000,()=>{
 //   console.log("Server started");
 // });

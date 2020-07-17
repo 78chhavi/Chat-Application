@@ -1,0 +1,94 @@
+body{
+  background-image: linear-gradient(#ffeaa7, #81ecec);
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  background-color: #ffeaa7;
+}
+
+.imgHeader{
+  width:4.5rem;
+  height: 4.5rem;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+}
+.onlineUsers{
+  background-color:#95a5a6;
+  display: inline-block;
+  float: left;
+  /* margin: auto; */
+  margin-left: 10%;
+  height: 500px;
+  width: 25%;
+}
+.root p{
+  background-color: white;
+  border: 2px solid #ffeaa7;
+  border-radius: 5px;
+}
+
+.container{
+  width: 55%;
+  height: 500px;
+  /* margin:auto; */
+  margin-right: 10%;
+  display: inline-block;
+  /* background-color: black; */
+  overflow-y: auto;
+  background-image: url("../images/cool-background.png");
+}
+.message{
+  width: 30%;
+  height:auto;
+  text-align: left;
+  margin:10px 10px;
+  /* padding:1px 10px; */
+  border: 1.5px solid white;
+  border-radius: 15px 30px 25px;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+p{
+  margin:0 4px;
+  padding:5px 12px;
+}
+.left{
+  background-color: #ffeaa7;
+  float:left;
+  clear:both;
+}
+.right{
+  background-color: #81ecec;
+  float:right;
+  clear:both;
+}
+.form{
+  /* margin: auto; */
+  display:block;
+  margin: 0 10% 10% 0;
+  text-align: right;
+  /* max-width: 990px; */
+  /* position: relative;
+  left: 15%; */
+}
+form input{
+  border-radius: 5px;
+  width:40%;
+  height:30px;
+}
+.btn{
+  border-radius: 10px;
+  background-color: #ff7675;
+  width:4%;
+  height: 30px;
+  /* margin-top: 10px; */
+  display: inline-flex;
+}
+.btn img{
+  display: block;
+  margin: auto;
+}
