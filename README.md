@@ -7,7 +7,7 @@
 
       ✔ Responsive UI Design
 
-      ✔ Multiple Users can chat simultaniously in a particular room
+      ✔ Multiple Users can chat simultaneously in a particular room
 
       ✔ Display Online Users in a room
 
@@ -15,11 +15,13 @@
 
       ✔ Send Messages
 
-      ✔ Recieve Messages
+      ✔ Receive Messages
+      
+      ✔ Allow emojis in between text
 
       ✔ Sweet Notification Tone for messages 
 
-      ✔ Allow emojis in between text
+      
 
 
 📝 Technologies Used:
